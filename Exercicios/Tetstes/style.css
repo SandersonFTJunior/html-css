@@ -1,4 +1,74 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-background-color: gray;
+    padding-top: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLzxPyRpr6TLV-_IorD6kxUefPnSxB0YMCAQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    
+}
+main{
+    box-shadow: 8px 10px 8px  rgba(0, 0, 0, 0.411);
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+}
+main > h1{
+    padding-left: 20px;
+    padding-top: 50px;
+    color: rgb(16, 73, 16);
+}
+main > header > p{
+    display: inline-block;
+    padding-left: 20px;
+    color: green;
+}
+#website{
+    font-weight: bolder;
+}
+main > p{
+    text-align: justify;
+    width: 200px;
+    padding: 20px;
+}
+main > header > nav{
+    text-align: right;
+}
+main > header > nav > ul > a{
+    
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}main > header > nav > ul > a:hover{
+    text-decoration: underline;
+}
+#especial{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid rgb(219, 219, 65);
+    background-color: rgb(219, 219, 65);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+#especial:hover{
+    border: 3px solid rgb(219, 219, 65);
+    background-color: rgb(255, 255, 255);
+    color: rgb(219, 219, 65);
+}
 
+#botao{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(219, 219, 65);
+    background-color: rgb(219, 219, 65);
+    border-radius: 20px;
+    color: white;
 }

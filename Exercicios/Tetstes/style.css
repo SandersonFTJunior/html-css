@@ -35,6 +35,8 @@ main > header > p{
     font-weight: bolder;
 }
 main > p{
+    display: flex;
+    flex-direction: row;
     display: block;
     text-align: justify;
     width: 200px;
@@ -51,6 +53,9 @@ main > header > nav > ul > a{
     text-decoration: underline;
 }
 main > img{
+    display: flex;
+    flex-direction: row;
+
     position: relative;
     padding-left: 400px;
     width: 300px;

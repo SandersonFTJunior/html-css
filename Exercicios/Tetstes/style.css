@@ -4,6 +4,7 @@
     padding: 0;
 }
 body{
+    padding-top: 15vh;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLzxPyRpr6TLV-_IorD6kxUefPnSxB0YMCAQ&usqp=CAU');
     background-repeat: no-repeat;
     background-position: left center;
@@ -17,7 +18,7 @@ body{
     margin: auto;
     padding: 10px;
     background-color: rgb(247, 247, 247);
-    height: 500px;
+    height: 400px;
     width: 700px;
     border-radius: 20px;
 }
